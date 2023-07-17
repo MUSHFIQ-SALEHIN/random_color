@@ -1,6 +1,6 @@
 /* import 'package:dio/dio.dart';
-import 'package:pop/api/api_paths.dart';
-import 'package:pop/api/helpers/interceptor.dart';
+import 'package:random_color/api/api_paths.dart';
+import 'package:random_color/api/helpers/interceptor.dart';
 
 class BaseApiService {
   static const String _contentType = 'Content-Type';

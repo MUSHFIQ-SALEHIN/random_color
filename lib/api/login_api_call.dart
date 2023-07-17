@@ -2,9 +2,9 @@
 
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:pop/api/api_paths.dart';
-import 'package:pop/api/base_api_service.dart';
-import 'package:pop/model/responseModel/login/login.dart';
+import 'package:random_color/api/api_paths.dart';
+import 'package:random_color/api/base_api_service.dart';
+import 'package:random_color/model/responseModel/login/login.dart';
 
 class LoginApiCall extends BaseApiService {
   late Login loginResponse;

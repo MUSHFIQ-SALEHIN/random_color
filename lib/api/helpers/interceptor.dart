@@ -5,9 +5,9 @@ import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
-import 'package:pop/utils/keys.dart';
-import 'package:pop/utils/routes.dart';
-import 'package:pop/utils/shared_pref.dart';
+import 'package:random_color/utils/keys.dart';
+import 'package:random_color/utils/routes.dart';
+import 'package:random_color/utils/shared_pref.dart';
 
 class LoggingInterceptors extends InterceptorsWrapper {
   int maxCharactersPerLine = 200;
